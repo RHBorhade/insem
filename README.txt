@@ -1,1 +1,1 @@
-Nothing interesting about this project.^_^
+Nothing interesting about this project.¯\_(ツ)_/¯
